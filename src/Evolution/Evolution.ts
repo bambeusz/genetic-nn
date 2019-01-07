@@ -1,3 +1,11 @@
+interface IEvolutionConfig {
+    populationSize: number;
+}
+
+interface IEvolution {
+    config: IEvolutionConfig;
+}
+
 class Evolution implements IEvolution {
     config: IEvolutionConfig;
 
